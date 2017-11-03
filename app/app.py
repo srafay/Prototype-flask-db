@@ -17,7 +17,7 @@ from flaskext.mysql import MySQL
 mysql = MySQL()
 app = Flask(__name__)
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'emart22'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'ethicalH'
 app.config['MYSQL_DATABASE_DB'] = 'Data'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
